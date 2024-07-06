@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+<form >
+    <div class="container">
+        <label for="password">Enter password : </label>
+        <input type="text" name="password" id="password" placeholder="Enter Your password" oninput="checkPasswordStrength()" autocomplete>
+        <p id="strength"></p>
+    </div>
+
+</form>
+
+    <!-- <button onclick="displayPassword()">Submit</button> -->
+
+    <script src="script.js"></script>
+
+    <p id="demo"></p>
+</body>
+
+</html>
